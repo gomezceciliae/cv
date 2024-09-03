@@ -2,7 +2,7 @@
 
 /* CSS Document */
 body {
-	background-image: url("img/background.png");
+	background-image: url("img/background.png");/* me hace un poco de ruido esta imagen de fondo, si tu intención es que ocupe el espacio de la columna de la izquierda lo mejor es aplicarla en esa sección sin un espacio en blanco, pero si querés que esté en toda la página te haría falta, y en ambos casos deberías ajustar la imagen  */
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h3 {
 	font-family: 'Degular Text Light';
 	font-variant-caps: all-small-caps;
 	font-size: 15px;
-	padding-right:380px;
+	padding-right:380px; /* no hace nada */
 }
 
 h4 {
@@ -63,8 +63,8 @@ h5 {
 
 section {
 	padding-bottom: 4px;
-	align-items: left;
-	text-align: left;
+	align-items: left; /* esto no funciona */
+	text-align: left; /* esto está de más */
 	padding-left:212px;
 	
 }
