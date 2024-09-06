@@ -1,88 +1,242 @@
 @charset "utf-8";
 
 /* CSS Document */
-body {
-	background-image: url("img/background.png");/* me hace un poco de ruido esta imagen de fondo, si tu intención es que ocupe el espacio de la columna de la izquierda lo mejor es aplicarla en esa sección sin un espacio en blanco, pero si querés que esté en toda la página te haría falta, y en ambos casos deberías ajustar la imagen  */
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 50px;
-	margin-right: 30px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*-- fue necesario colocarlo valor 0 a * para ajustar el navbar --*/
+header {
+	background: rgba(0, 0, 0, 1.0);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+ul {
+	float: right;
+	padding-right: 0px;
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	font-family: Degular, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+}
+
+nav ul li a {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background: #FA49FF;
+}
+
+.contenedor {
+	position: relative;
+	text-align: center;
+}
+
+.textocontenedor {
+	font-family: "degular", sans-serif;
+	font-size: 350px;
+	font-weight: 200;
+	font-style: normal;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+
+.sub3 {
+	list-style: none;
+	font-family: "degular", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	font-variant-caps: all-small-caps;
+}
+
+li {
+	font-family: "degular", sans-serif;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
 }
 
 p {
-	font-family: 'Degular Text Light';
-	font-size: 15px;
-	white-space: pre;
-	padding-right:380px;
-	
-}
-
-a {
-	font-family: 'Degular Text Light';
-	font-size: 15px;
-	text-decoration: none;
-	color: black;
-}
-
-h1 {
-	font-family: 'Degular Text Medium';
-	font-size: 35px;
-	padding-right: 300px
-
+	font-family: "degular", sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	font-style: normal;
+	padding-left: 100px;
+	padding-right: 30px;
+	padding-bottom: 80px;
 }
 
 h2 {
-	font-family: 'Degular Text Light';
-	font-size: 20px;
-	padding-left: 0px;
-	padding-right: 400px;
-	
-}
-
-h3 {
-	font-family: 'Degular Text Light';
-	font-variant-caps: all-small-caps;
-	font-size: 15px;
-	padding-right:380px; /* no hace nada */
-}
-
-h4 {
-	font-family: 'Degular Text Medium';
-	font-variant-caps: all-small-caps;
-	font-size: 15px;
-	padding-left: 410px;
-}
-
-h5 {
-	font-family: 'Degular Text Semibold';
-	font-size: 15px;
-}
-
-section {
-	padding-bottom: 4px;
-	align-items: left; /* esto no funciona */
-	text-align: left; /* esto está de más */
-	padding-left:212px;
-	
+	font-family: "degular", sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	font-style: normal;
+	padding-left: 100px;
+	padding-right: 40px;
+	padding-top: 112px;
+	padding-bottom: 50px;
 }
 
 div {
 	display: flex;
 	flex-direction: row;
-	
 }
 
-article {
+.contenedorlista {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	/* ajuste entre filas del class */
+	list-style: none;
+}
+
+footer {
+	background-color: black;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-family: "degular", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgeducacion {
+	padding-right: 15px;
+	align-self: center;
+}
+
+.oscarwilde {
+	font-family: "degular", sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	font-style: normal;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	padding-top: 120px;
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+}
+
+.behance {
+	display: flex;
+	flex-direction: row;
+}
+
+.textofinal {
+	font-family: "degular", sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	font-style: normal;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	padding-top: 120px;
+	background-image: url("img/portada.gif");
+	color: #000000;
+}
+
+.listaskills {
+	font-size: 23px;
+}
+
+.contenedorlista2 {
+	display: flex;
+	flex-direction: row;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 70px;
+	padding-top: 50px;
+	list-style: none;
+}
+
+.divskills {
+	justify-content: center;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.numerales {
+	font-family: "degular", sans-serif;
+	font-size: 70px;
+	font-weight: 400;
+	font-style: normal;
+	padding-left: 0px;
+	/*lo dejo en valor 0 para que respete alineación deseada */
+	padding-bottom: 50px;
+	position: relative;
+	top: -20px;
+}
+
+.diviconitos {
 	display: flex;
 	flex-direction: column;
-	
 }
 
-iframe {
-	padding-bottom: 10px;
-		
+.iconitos {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	background-color: #000000;
+	color: #fff;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-bottom: 90px;
 }
 
+.infonumerales {
+	font-family: "degular", sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	font-style: normal;
+	padding-left: 0px;
+	/*lo dejo en valor 0 para que respete alineación deseada */
+	padding-bottom: 80px;
+	padding-right: 90px;
+	position: relative;
+	top: 40px;
+	text-align: center;
+}
+
+.infonumeralesiconito {
+	font-family: "degular", sans-serif;
+	font-size: 70px;
+	font-weight: 400;
+	font-style: normal;
+	padding-left: 0px;
+	/*lo dejo en valor 0 para que respete alineación deseada */
+	padding-bottom: 20px;
+	padding-right: 90px;
+	position: relative;
+	top: 40px;
+	text-align: center;
+}

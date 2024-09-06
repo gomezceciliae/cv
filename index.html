@@ -2,57 +2,204 @@
 <html>
 
 <head>
+	<meta name="google" content="notranslate">
+	<!-- etiqueta agregada porque traducía al gallego automáticamente-->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- css principal -->
+	<link rel="stylesheet" href="https://use.typekit.net/emk8vbn.css">
+	<!-- para usar la fuente principal de adobe fonts -->
+	<link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+	<!-- favicon -->
 	<meta charset="utf-8">
-	<title>CV Cecilia Gómez</title>
+	<title>Cecilia Gómez | CV</title>
 </head>
 
 <body>
 	<header>
-		<div>
-			<h1> Cecilia Gómez cv */</h1>
-			<h2>diseñadora, tipógrafa y estudiante. me especializo en diseño editorial y conceptualización de sistemas gráficos. ilustro ocasionalmente, sobre todo en primavera-verano. gusto especial por las letras y la experimentación. reflexiva y entusiasta.</h2>
-	  </div>
+		<!-- navbar -->
+		<nav>
+			<ul>
+				<li><a href="index.html">✧</a></li>
+				<li><a href="#acercademi">acerca de mi</a></li>
+				<li><a href="#educacion">educación</a></li>
+				<li><a href="#experiencia">experiencia y proyectos</a></li>
+				<li><a href="#skills">skills e intereses</a></li>
+				<li><a href="#contacto">contacto</a></li>
+			</ul>
+		</nav>
+		<!-- fin navbar -->
 	</header>
-	<!-- y el main?? -->
-	<div>
-		<img src="img/foto_ce.png" alt="foto de perfil" height="269px" width="200px" />
-	<section>
-		<h3>educación</h3> <!-- esto funciona mejor como una lista -->
-		<p>2020—presente
-			universidad nacional de lanús
-			licenciatura | diseño y comunicación visual</p>
-		<p>2023
-			hacer, pensar y usar tipografía
-			seminario | fer cozzi</p>
-		<p>2021
-			powerlogos
-			seminario | coco cerrella</p>
+	<main>
+		<!-- portada -->
+		<div class="contenedor">
+			<img src="img/portada.gif" alt="hola!" width="100%" height="100%" />
+			<div class="textocontenedor">cg✧</div>
+		</div>
+		<!-- fin portada -->
+		<!--breve intro -->
+		<section>
+			<a id="acercademi"></a>
+			<h2>hola ✧ soy cecilia</h2> <!-- no se si va, pero lo dejo -->
+			<p>diseñadora, tipógrafa y estudiante. me especializo en diseño editorial y conceptualización de sistemas gráficos. ilustro ocasionalmente, sobre todo en primavera—verano. gusto especial por las letras y la experimentación digital—analógica.</p>
 		</section>
-	</div>
-	<div>
-	<article> <!-- esto no es semánticamente un artículo -->
-		<iframe src="https://www.behance.net/embed/project/204757781?ilo0=1" height="158" width="202" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-		<iframe src="https://www.behance.net/embed/project/203945227?ilo0=1" height="158" width="202" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-	</article>
-	<section>
-			<h3>experiencia</h3>
-		<p>2021—presente <!-- estos idems funcionarían mejor como lista -->
-			studio cg | dg
-			diseñadora freelance</p>
-		<p>2022—presente
-			bífida ediciones independientes
-			diseñadora editorial</p>
-		<p>2023—presente
-			auxiliar docente
-			d1, et2 y 3 | unla</p>
-		
-	</section>
-	</div>
-	
+		<!--fin beve intro -->
+		<!-- intro info adicional -->
+		<div class="iconitos">
+			<section class="diviconito">
+				<p class="infonumeralesiconito">☑</p>
+				<p class="infonumerales">ba—arg</p>
+			</section>
+			<section class="diviconito">
+				<p class="infonumeralesiconito">➃</p>
+				<p class="infonumerales">4 mayo</p>
+			</section>
+			<section class="diviconito">
+				<p class="infonumeralesiconito">❤</p>
+				<p class="infonumerales">homeworking</p>
+			</section>
+			<section class="diviconito">
+				<p class="infonumeralesiconito">★</p>
+				<p class="infonumerales">es—en</p>
+			</section>
+		</div>
+		<!-- fin de info adicional -->
+		<!-- inicio educación -->
+		<a id="educacion"></a>
+		<h2>✧ educación</h2>
+		<div>
+			<section class="contenedorlista">
+				<p class="numerales">➚</p>
+				<ul>
+					<li class="sub3">universidad nac. de lanús</li>
+					<li> 2020—presente</li>
+					<li> lic. diseño y comunicación visual</li>
+				</ul>
+			</section>
+			<section class="contenedorlista">
+				<p class="numerales">★</p>
+				<ul>
+					<li class="sub3">unla + fer cozzi</li>
+					<li> 2023—2023</li>
+					<li> hacer, pensar y usar tipografía</li>
+				</ul>
+			</section>
+			<section class="contenedorlista">
+				<p class="numerales">☑</p>
+				<ul>
+					<li class="sub3">escuela coco cerrella</li>
+					<li> 2021—2021</li>
+					<li> seminario powerlogos</li>
+				</ul>
+			</section>
+		</div>
+		<!--inicio segunda fila educación-->
+		<div>
+			<section class="contenedorlista">
+				<p class="numerales">❤</p>
+				<ul>
+					<li class="sub3">escuela de la vida</li>
+					<li> 1986—presente</li>
+					<li> lic. en resiliencia y resurrecciones</li>
+				</ul>
+			</section>
+			<section>
+				<p>→ en constante progreso ...</p>
+			</section>
+
+		</div>
+		<!-- fin de educación -->
+		<!-- frase oscar wilde -->
+		<section class="oscarwilde">
+			<p>la experiencia no tiene valor ético alguno, es simplemente el nombre que damos a nuestros errores. ✧ oscar wilde</p>
+		</section>
+		<!-- fin oscar wilde -->
+		<!-- comienzo experiencia -->
+		<a id="experiencia"></a>
+		<h2>✧ experiencia y proyectos</h2>
+		<div>
+			<section class="contenedorlista">
+				<p class="numerales">➊</p>
+				<ul>
+					<li class="sub3">universidad nac. de lanús</li>
+					<li> 2023—presente</li>
+					<li> auxiliar docente: d1, et2 y 3</li>
+				</ul>
+			</section>
+			<section class="contenedorlista">
+				<p class="numerales">➋</p>
+				<ul>
+					<li class="sub3">bifida ediciones</li>
+					<li> 2022—presente</li>
+					<li> diseñadora editorial</li>
+				</ul>
+			</section>
+			<section class="contenedorlista">
+				<p class="numerales">➌</p>
+				<ul>
+					<li class="sub3">cg dg</li>
+					<li>2021—presente</li>
+					<li>diseñadora freelance</li>
+				</ul>
+			</section>
+		</div>
+		<!-- fin experiencia -->
+		<!-- inicio behance -->
+		<div class="behance" <iframe>
+			<iframe src="https://www.behance.net/embed/project/204757781?ilo0=1" height="316" width="100%" allowfullscreen lazyload frameborder="0" borderradius="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+			<iframe src="https://www.behance.net/embed/project/203945227?ilo0=1" height="316" width="100%" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+		</div>
+		<!-- fin behance -->
+		<!--inicio skills e intereses -->
+		<a id="skills"></a>
+		<h2>✧ skills e intereses</h2>
+		<div class="divskills">
+			<section class="contenedorlista2">
+				<ul>
+					<li class="listaskills">➊ comunicación</li>
+					<li class="listaskills">➋ adaptabilidad</li>
+					<li class="listaskills">➌ organización</li>
+					<li class="listaskills">➍ responsabilidad</li>
+					<li class="listaskills">➎ diseño de sistemas</li>
+					<li class="listaskills">➏ diseño editorial</li>
+					<li class="listaskills">➐ criterio tipográfico</li>
+				</ul>
+			</section>
+			<section class="contenedorlista2">
+				<ul>
+					<li class="listaskills">✦✦✧ id</li>
+					<li class="listaskills">✦✦✧ ps</li>
+					<li class="listaskills">✦✦✧ ai</li>
+					<li class="listaskills">✦✦✧ dw</li>
+					<li class="listaskills">✦✧✧ ae</li>
+					<li class="listaskills">✦✦✧ figma</li>
+					<li class="listaskills">✦✦✧ fontlab</li>
+				</ul>
+			</section>
+			<section class="contenedorlista2">
+				<ul>
+					<li class="listaskills">❤ rollerskating</li>
+					<li class="listaskills">❤ aviación</li>
+					<li class="listaskills">❤ viajes y turismo</li>
+					<li class="listaskills">★ genealogía</li>
+					<li class="listaskills">★ astrología</li>
+					<li class="listaskills">★ metafísica</li>
+				</ul>
+			</section>
+		</div>
+		<!-- fin skills e intereses -->
+		<!-- inicio contacto -->
+		<a id="contacto"></a>
+		<h2>✧ contactate conmigo</h2>
+		<section class="textofinal">
+			<p>fan de lo simple y eficaz. trabajo en proyectos que requieran detalles especiales y soluciones comunicativas—visuales escuchando, observando y disfrutando del proceso creativo. soy una persona en constante capacitación y autodidacta. escribime y trabajemos junt✧s</p>
+		</section>
+		<!-- fin contacto -->
+	</main>
+	<footer>
+		<section>
+			<a href="https://www.linkedin.com/in/cgdg/">© 2024 cecilia gómez</a> ✧ <a href="https://www.be.net/cgdg/">behance</a> ✧ <a href="http://wa.me/541151417688/">whatsapp</a> ✧ <a href="mailto:hola.cgdg@gmail.com">email</a>
+		</section>
+	</footer>
 </body>
-<footer>
-	<h4> © 2024 cecilia gómez | <a href="https://www.linkedin.com/in/cgdg/">linkedin</a> | <a href="https://www.be.net/cgdg/">behance</a> | <a href="http://wa.me/541151417688/">whatsapp</a> | <a href="mailto:hola.cgdg@gmail.com">email</a></h4> <!-- no hace falta que todo esté siendo un gran h4, con dejar las a dentro del footer funciona bien -->
-</footer>
 
 </html>
