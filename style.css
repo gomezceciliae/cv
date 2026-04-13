@@ -201,6 +201,7 @@ nav ul {
 	gap: 2.5rem;
 	background-color: #CBCBCB;
 	justify-content: center;
+	align-items: flex-start;
 }
 
 .habilidades {
@@ -209,7 +210,8 @@ nav ul {
 
 .habilidades p {
 	font-size: 2rem;
-	line-height: 1.5; /* ver en todo el css y unificar rem */
+	line-height: 1.5;
+	/* ver en todo el css y unificar rem */
 	margin: 0;
 }
 
