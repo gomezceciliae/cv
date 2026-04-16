@@ -202,8 +202,9 @@ nav ul {
 	margin-left: 1.5rem;
 }
 
-.parrafo,
-.perfil {
+.acercademi p,
+.perfil,
+figcaption p {
 	line-height: 1.5;
 }
 
