@@ -14,11 +14,7 @@
 }
 
 a,
-footer ul img,
-button,
-[role="button"],
-input[type="submit"],
-input[type="button"] {
+footer ul img {
 	cursor: url('img/hand-cursor.png'), pointer;
 }
 
