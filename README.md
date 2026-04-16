@@ -14,5 +14,5 @@ Mi web es sencilla en su aspecto y se pensó con estructura editorial. Tiene una
 ## Especificaciones
 
 * Tamaño de pantalla: 1366 X 768 (laptop)
-* Editor: Adobe Dreamweaver (principal), VSCode (secundario)
+* Editor: Adobe Dreamweaver (principal), VS Code (secundario)
 * Boceto Figma: en proceso
