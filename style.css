@@ -5,6 +5,15 @@
 
 * {
 	box-sizing: border-box;
+	cursor: url('img/red_cursor.cur'), default;
+}
+
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"] {
+  cursor: url('img/red_hand_cursor.cur'), pointer;
 }
 
 html {
@@ -94,9 +103,9 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: sticky;
+	position: sticky; /* sacarlo por el momento, no usar position */
 	top: 0;
-	z-index: 1000;
+	z-index: 1000; /* sacarlo por el momento, no usar position */
 	background-color: #CBCBCB;
 	flex-wrap: wrap;
 }
@@ -171,7 +180,7 @@ nav ul {
 }
 
 .about ul li::before {
-	content: "✦ ";
+	content: "✦";
 	margin-right: 0.5rem;
 	color: white;
 }
@@ -224,7 +233,7 @@ nav ul {
 }
 
 .habilidades ul li::before {
-	content: "♡ ";
+	content: "♡ "; /* tomar ejemplo de ul li ::before */
 	color: #FF5454;
 }
 
@@ -329,7 +338,7 @@ blockquote cite {
 }
 
 .img-hover {
-	position: absolute;
+	position: absolute; /* preguntar position en efectos, si los puedo usar, porque no los piden */
 	inset: 0;
 	opacity: 0;
 }
@@ -378,7 +387,7 @@ footer ul {
 
 /* usar luego 
 footer ul li (responsive widht-height)
-/* usar luego */
+   usar luego */
 
 .catedra {
 	display: block;
