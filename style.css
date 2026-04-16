@@ -158,13 +158,14 @@ nav ul {
 .acercademi {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2.5rem;
+	gap: 4rem;
 	background-color: #FF5454;
 	justify-content: center;
 }
 
 .about {
-	flex: 1 1 300px;
+	flex: 0 1 480px;
+	max-width: 600px;
 }
 
 .acercademi .about .perfil {
@@ -217,14 +218,20 @@ figcaption p {
 .skills {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2.5rem;
+	gap: 4rem;
 	background-color: #CBCBCB;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .habilidades {
-	flex: 1 1 300px;
+	flex: 1 1 400px;
+	max-width: 600px;
+}
+
+.habilidades:last-child {
+	max-width: 300px;
+	margin-top: 1rem;
 }
 
 .habilidades p {
@@ -234,15 +241,18 @@ figcaption p {
 }
 
 .habilidades ul {
+	justify-content: center;
 	font-size: 2rem;
 	list-style: none;
 	padding: 0;
 	margin: 0 auto;
 	width: fit-content;
+	margin-left: auto;
 }
 
 .habilidades ul li::before {
-	content: "♡ ";
+	content: "♡";
+	margin-right: 0.5rem;
 	color: #FF5454;
 }
 
@@ -338,6 +348,7 @@ blockquote cite {
 
 .foto-hover {
 	position: relative;
+	/* sólo con fines de efecto css */
 	width: 103px;
 	overflow: hidden;
 }
@@ -350,7 +361,7 @@ blockquote cite {
 
 .img-hover {
 	position: absolute;
-	/* preguntar position en efectos, si los puedo usar, porque no los piden */
+	/* sólo con fines de efecto css */
 	inset: 0;
 	opacity: 0;
 }
@@ -373,7 +384,8 @@ blockquote cite {
 
 footer {
 	display: flex;
-	flex-wrap: wrap; /* hacer ajuste para que baje más adelante */
+	flex-wrap: wrap;
+	/* hacer ajuste para que baje más adelante */
 	justify-content: space-between;
 	align-items: center;
 	background-color: #FF5454;
