@@ -10,6 +10,8 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	cursor: url('img/cursor.png'), default;
 }
 
@@ -29,7 +31,6 @@ html {
 }
 
 body {
-	margin: 0;
 	font-family: "degular", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -46,7 +47,6 @@ h1,
 h2,
 h3 {
 	font-weight: 700;
-	margin: 0;
 }
 
 h1 {
@@ -112,17 +112,14 @@ header {
 	/* sólo se usó para fijar el header */
 	top: 0;
 	z-index: 1000;
-	/* sólo se usó para fijar el header */
+	/* sólo se usó para controlar la superposición */
 	background-color: #CBCBCB;
 	flex-wrap: wrap;
 }
 
-nav ul {
+.navbar {
 	display: flex;
 	gap: 1rem;
-	list-style: none;
-	margin: 0;
-	padding: 0;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -144,7 +141,6 @@ nav ul {
 
 .intro p {
 	font-size: 2.5rem;
-	margin: 0;
 	text-align: center;
 	line-height: 1.5;
 }
@@ -168,8 +164,7 @@ nav ul {
 	max-width: 600px;
 }
 
-.acercademi .about .perfil {
-	/* también puedo usar: p.perfil */
+.perfil {
 	color: white;
 }
 
@@ -179,8 +174,6 @@ nav ul {
 
 .about ul {
 	list-style: none;
-	padding: 0;
-	margin: 0;
 }
 
 .about li {
@@ -204,7 +197,6 @@ nav ul {
 }
 
 .acercademi p,
-.perfil,
 figcaption p {
 	line-height: 1.5;
 }
@@ -237,15 +229,11 @@ figcaption p {
 .habilidades p {
 	font-size: 2rem;
 	line-height: 1.5;
-	margin: 0;
 }
 
 .habilidades ul {
-	justify-content: center;
 	font-size: 2rem;
 	list-style: none;
-	padding: 0;
-	margin: 0 auto;
 	width: fit-content;
 	margin-left: auto;
 }
@@ -268,10 +256,6 @@ figcaption p {
 	/* agrego 1 más, pudiendo ser también 1.5 */
 }
 
-.megustacontainer figure img {
-	margin-bottom: 1rem;
-}
-
 .megustacontainer {
 	display: flex;
 	flex-wrap: wrap;
@@ -286,7 +270,10 @@ figcaption p {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin: 0;
+}
+
+.megustacontainer figure img {
+	margin-bottom: 1rem;
 }
 
 .fotomegusta {
@@ -305,7 +292,6 @@ figcaption p {
 
 
 blockquote {
-	margin: 0;
 	font-size: 2rem;
 	text-align: center;
 	background-color: #FF5454;
@@ -313,12 +299,10 @@ blockquote {
 
 blockquote p {
 	color: white;
-	margin: 0;
 }
 
 blockquote cite {
 	color: #1a1a1a;
-	margin: 0;
 	font-style: normal;
 	font-weight: 700;
 }
@@ -338,10 +322,6 @@ blockquote cite {
 	background-color: #CBCBCB;
 }
 
-.contacto p {
-	margin: 0;
-}
-
 .contacto a:hover {
 	color: #1a1a1a;
 }
@@ -349,7 +329,6 @@ blockquote cite {
 .foto-hover {
 	position: relative;
 	/* sólo con fines de efecto css */
-	width: 103px;
 	overflow: hidden;
 }
 
@@ -400,7 +379,6 @@ footer {
 
 .footer-izq p {
 	font-size: 2rem;
-	font-style: normal;
 	font-weight: 400;
 }
 
@@ -408,8 +386,6 @@ footer ul {
 	display: flex;
 	gap: 1rem;
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 .catedra {
