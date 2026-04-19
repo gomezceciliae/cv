@@ -79,21 +79,21 @@ a:hover {
 
 header,
 footer {
-	padding: 1rem 1.5rem;
+	padding: 20px 30px;
 }
 
 .intro,
-.acercademi,
+.acerca-de-mi,
 .skills,
-.megusta,
+.me-gusta,
 blockquote,
 .contacto {
-	padding: 3.5rem 2.5rem;
+	padding: 70px 50px;
 }
 
-#acercademi,
+#acerca-de-mi,
 #skills,
-#megusta,
+#me-gusta,
 #contacto {
 	scroll-margin-top: 100px;
 }
@@ -109,17 +109,15 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: sticky;
-	/* sólo se usó para fijar el header */
 	top: 0;
 	z-index: 1000;
-	/* sólo se usó para controlar la superposición */
 	background-color: #CBCBCB;
 	flex-wrap: wrap;
 }
 
-.navbar {
+nav {
 	display: flex;
-	gap: 1rem;
+	gap: 20px;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -130,17 +128,17 @@ header {
 /* -------------------- */
 
 
-.imagenheroe {
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
+.imagen-heroe {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
 }
 
-.fotoheroe {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.foto-heroe {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 
 .intro p {
@@ -155,10 +153,10 @@ header {
 /* -------------------- */
 
 
-.acercademi {
+.acerca-de-mi {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 4rem;
+	gap: 80px;
 	background-color: #FF5454;
 	justify-content: center;
 }
@@ -170,10 +168,11 @@ header {
 
 .perfil {
 	color: white;
+	margin-top: 20px;
 }
 
 .about h2 {
-	margin-bottom: 1.5rem;
+	margin-bottom: 30px;
 }
 
 .about ul {
@@ -182,12 +181,12 @@ header {
 
 .about li {
 	font-weight: 700;
-	margin-bottom: 1rem;
+	margin-bottom: 20px;
 }
 
 .about ul li::before {
 	content: "✦";
-	margin-right: 0.5rem;
+	margin-right: 10px;
 	color: white;
 }
 
@@ -197,10 +196,10 @@ header {
 }
 
 .subtexto {
-	margin-left: 1.5rem;
+	margin-left: 30px;
 }
 
-.acercademi p,
+.acerca-de-mi p,
 figcaption p {
 	line-height: 1.5;
 }
@@ -214,7 +213,7 @@ figcaption p {
 .skills {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 4rem;
+	gap: 80px;
 	background-color: #CBCBCB;
 	justify-content: center;
 	align-items: center;
@@ -227,7 +226,7 @@ figcaption p {
 
 .habilidades:last-child {
 	max-width: 300px;
-	margin-top: 1rem;
+	margin-top: 20px;
 }
 
 .habilidades p {
@@ -238,13 +237,12 @@ figcaption p {
 .habilidades ul {
 	font-size: 2rem;
 	list-style: none;
-	width: fit-content;
 	margin-left: auto;
 }
 
 .habilidades ul li::before {
 	content: "♡";
-	margin-right: 0.5rem;
+	margin-right: 10px;
 	color: #FF5454;
 }
 
@@ -254,39 +252,39 @@ figcaption p {
 /* -------------------- */
 
 
-.megusta h2 {
+.me-gusta h2 {
 	text-align: center;
-	margin-bottom: 2.5rem;
-	/* agrego 1 más, pudiendo ser también 1.5 */
+	margin-bottom: 40px;
 }
 
-.megustacontainer {
+.me-gusta-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 4rem;
+	gap: 80px;
 }
 
-.megustacontainer figure {
+.me-gusta-container figure {
 	flex: 0 0 30%;
 	display: flex;
-	max-width: 15rem;
+	max-width: 300px;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 }
 
-.megustacontainer figure img {
-	margin-bottom: 1rem;
-}
-
-.fotomegusta {
+.foto-me-gusta {
+	margin-bottom: 20px;
 	transition: filter 0.4s ease, transform 0.4s ease;
 }
 
-.fotomegusta:hover {
+.foto-me-gusta:hover {
 	filter: grayscale(100%);
 	transform: scale(1.04);
+}
+
+.me-gusta-container figcaption h3 {
+	margin-bottom: 10px;
 }
 
 
@@ -309,6 +307,7 @@ blockquote cite {
 	color: #1a1a1a;
 	font-style: normal;
 	font-weight: 700;
+	margin-left: 10px;
 }
 
 
@@ -322,7 +321,7 @@ blockquote cite {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	gap: 1rem;
+	gap: 20px;
 	background-color: #CBCBCB;
 }
 
@@ -332,7 +331,6 @@ blockquote cite {
 
 .foto-hover {
 	position: relative;
-	/* sólo con fines de efecto css */
 	overflow: hidden;
 }
 
@@ -344,7 +342,6 @@ blockquote cite {
 
 .img-hover {
 	position: absolute;
-	/* sólo con fines de efecto css */
 	inset: 0;
 	opacity: 0;
 }
@@ -368,7 +365,6 @@ blockquote cite {
 footer {
 	display: flex;
 	flex-wrap: wrap;
-	/* hacer ajuste para que baje más adelante */
 	justify-content: space-between;
 	align-items: center;
 	background-color: #FF5454;
@@ -377,9 +373,8 @@ footer {
 .footer-izq {
 	display: flex;
 	align-items: center;
-	gap: 1rem;
+	gap: 20px;
 }
-
 
 .footer-izq p {
 	font-size: 2rem;
@@ -388,13 +383,13 @@ footer {
 
 footer ul {
 	display: flex;
-	gap: 1rem;
+	gap: 20px;
 	list-style: none;
 }
 
 .catedra {
 	display: block;
-	line-height: 1.5rem;
+	line-height: 30px;
 }
 
 .logos {
