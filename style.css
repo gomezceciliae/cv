@@ -83,18 +83,15 @@ footer {
 }
 
 .intro,
-blockquote {
-	padding: 70px 5%;
-}
-
 .acerca-de-mi,
-.skills,
-.me-gusta {
-	padding: 70px 5% 140px 5%;	
+.me-gusta,
+blockquote,
+.contacto {
+	padding: 70px 5% 70px 5%;
 }
 
-.contacto {
-	padding: 70px 5% 40px 5%;
+.skills {
+	padding: 70px 5% 120px 5%;
 }
 
 #acerca-de-mi,
