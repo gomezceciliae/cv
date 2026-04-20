@@ -33,4 +33,4 @@ Mi web es sencilla en su aspecto y se pensó con estructura editorial. Tiene una
 
 ## Boceto Figma
 
-[CGDG bocetado en Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=0-1&t=baHA7iGAb0muM8Ww-1)
+[CGDG bocetado en Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=52-2&p=f&t=2HtJaVEelBZKGsWQ-0)
