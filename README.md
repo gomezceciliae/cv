@@ -11,8 +11,26 @@ Este proyecto fue bocetado a mano alzada, para poder entender y planificar una e
 Mi web es sencilla en su aspecto y se pensó con estructura editorial. Tiene una paleta de 4 colores, dentro de lo posible neutrales, para que no interfieran después cuando tenga que armar mi portfolio y empiece a usar fotografías. También utiliza pocos recursos y dingbats como ornamento adicional, que uso a criterio y solo están en ciertas secciones, donde el cuerpo tipográfico es mayor y pueden lucirse. Conceptualmente me basé en mi infancia, donde comencé a sentir afinidad por el arte y el diseño. El juguete hacia el final de la página fue uno que tuve realmente. En cuanto a lo visual se encuentra sistematizado y los elementos se relacionan entre sí. En cada parte o sección en particular, se prueban las posibilidades del sistema: combinación de la paleta, relación texto-imagen, simetrías, tamaños, interlínea y variables tipográficas.
 
 
+## Fortalezas
+
+* Comprensión semántica general
+* Manejo de CSS
+* Conceptualización gráfica
+* Organización de la estructura del tp (del papel al editor)
+
+
+## Dificultades iniciales
+
+* Margin y padding (probé y edité muchas veces)
+* Unidades en % y vh (sólo hice ajustes finos necesarios)
+
+
 ## Especificaciones
 
 * Tamaño de pantalla: 1366 X 768 (laptop)
-* Editor: Adobe Dreamweaver (principal), VS Code (secundario)
-* Link Figma: https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=0-1&t=baHA7iGAb0muM8Ww-1
+* Editor: Adobe Dreamweaver (principal) VS Code (secundario)
+
+
+## Boceto Figma
+
+[CGDG bocetado en Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=0-1&t=baHA7iGAb0muM8Ww-1)
