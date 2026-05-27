@@ -3,6 +3,11 @@
 /* html: se toma como base 20px para 1rem */
 
 
+/* --------------------- */
+/* I N D E X . H T M L */
+/* --------------------- */
+
+
 /* -------------------- */
 /* GENERAL / CURSORES */
 /* -------------------- */
@@ -467,3 +472,40 @@ footer ul {
 .foto-portfolio.base:hover + .foto-portfolio.hover {
     opacity: 1;
 }
+
+
+/* ------------------------- */
+/* P O R T F O L I O . H T M L */
+/* ------------------------- */
+
+
+.blockquote-portfolio {
+	background-color: #FFFFFF;
+}
+
+.blockquote-portfolio p {
+	color: #1A1A1A;
+}
+
+.blockquote-portfolio cite {
+	color: #FF5454;
+}
+
+
+/* ----------------------- */
+/* C O N T A C T O . H T M L */
+/* ----------------------- */
+
+
+.blockquote-contacto {
+	background-color: #1A1A1A;
+}
+
+.blockquote-contacto p {
+	color: #FFFFFF;
+}
+
+.blockquote-contacto cite {
+	color: #FF5454;
+}
+
