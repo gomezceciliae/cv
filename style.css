@@ -303,11 +303,11 @@ figcaption p {
 blockquote {
 	font-size: 2rem;
 	text-align: center;
-	background-color: #FF5454;
+	background-color: #CBCBCB;
 }
 
 blockquote p {
-	color: white;
+	color: #FF5454;
 }
 
 blockquote cite {
