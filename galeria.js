@@ -1,15 +1,12 @@
-const imagenes = [
-    "../../img/portfolio/1.jpg",
-    "../../img/portfolio/2.jpg",
-    "../../img/portfolio/3.jpg"
-];
+const contenedor = document.getElementById("galeria");
+
+const imagenes = JSON.parse(contenedor.dataset.imagenes);
 
 let indice = 0;
 
 const imagen = document.getElementById("imagen-galeria");
 
 function siguiente() {
-
     indice++;
 
     if (indice >= imagenes.length) {
@@ -20,7 +17,6 @@ function siguiente() {
 }
 
 function anterior() {
-
     indice--;
 
     if (indice < 0) {
