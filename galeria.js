@@ -17,7 +17,7 @@ function mostrarMedia() {
         if (!video) {
             video = document.createElement("video");
             video.id = "imagen-galeria";
-            video.controls = true;
+            video.controls = false;
             video.autoplay = true;
             video.loop = true;
             video.style.maxWidth = "100%";
