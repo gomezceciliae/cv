@@ -492,6 +492,103 @@ footer ul {
 }
 
 
+/* ------------------------- */
+/* 1 2 3 4 . H T M L */
+/* ------------------------- */
+
+
+.nav-portfolio {
+	background-color: #1A1A1A;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding: 30px 20px;
+	flex-shrink: 0;
+}
+
+.nav-portfolio a {
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.proyecto {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+	background-color: #CBCBCB;
+}
+
+.contenido-proyecto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-portfolio .activo {
+    color: #FF5454;
+}
+
+.info-proyecto {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 30px 40px;
+}
+
+.encabezado-proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.info-proyecto p {
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.galeria {
+    position: relative;
+    width: 100%;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flecha {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	padding: 20px;
+	font-size: 2rem;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.galeria:hover .flecha {
+	opacity: 1;
+}
+
+.izquierda {
+	left: 20px;
+}
+
+.derecha {
+	right: 20px;
+}
+
+
 /* ----------------------- */
 /* C O N T A C T O . H T M L */
 /* ----------------------- */

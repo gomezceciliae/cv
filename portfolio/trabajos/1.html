@@ -8,7 +8,53 @@
       <link rel="icon" href="../../img/icon.png" type="image/png">
       <title>Proyecto 1</title>
    </head>
-	<body>
-	<main></main>
-	</body>
+   <body>
+      <main class="proyecto">
+
+    <section class="contenido-proyecto">
+
+                <section class="galeria">
+
+    <button class="flecha izquierda" onclick="anterior()">
+        ←
+    </button>
+
+    <img id="imagen-galeria"
+         src="../../img/portfolio/1-a.png"
+         alt="Inicio de galería Proyecto 1">
+
+    <button class="flecha derecha" onclick="siguiente()">
+        →
+    </button>
+
+</section>
+
+        <section class="info-proyecto">
+
+    <div class="encabezado-proyecto">
+        <h2>El traje del diablito</h2>
+        <h3>[Editorial] 2024</h3>
+    </div>
+
+    <p>
+        Este texto es a modo de ejemplo de como debería verse el texto
+        en un párrafo para texto corrido. Voy a agregar otra línea de texto para ver como se comporta en tres líneas.
+    </p>
+
+</section>
+
+    </section>
+
+    <nav class="nav-portfolio">
+        <a href="../trabajos/portada.html" class="activo">✦</a>
+        <a href="../trabajos/1.html">➊</a>
+		<a href="../trabajos/2.html">➋</a>
+        <a href="../trabajos/3.html">➌</a>
+        <a href="../trabajos/4.html">➍</a>
+        <a href="../trabajos/contraportada.html">✦</a>
+    </nav>
+
+</main>
+	   <script src="../../galeria.js"></script>
+   </body>
 </html>
