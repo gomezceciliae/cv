@@ -7,8 +7,61 @@
       <link rel="stylesheet" href="https://use.typekit.net/nys6vjf.css" type="text/css">
       <link rel="icon" href="../../img/icon.png" type="image/png">
       <title>Proyecto 3</title>
+      <!-- Excepción muy específica solo para este html -->
+      <style>
+         html, body {
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         height: 100%;
+         }
+      </style>
+      <!-- Excepción muy específica solo para este html -->
    </head>
-	<body>
-	<main></main>
-	</body>
+   <body>
+      <main class="proyecto">
+         <section class="contenido-proyecto">
+            <section class="galeria">
+               <button class="flecha izquierda" onclick="anterior()">
+               ←
+               </button>
+               <img id="imagen-galeria"
+                  src="../../img/portfolio/3-a.png"
+                  alt="Portada de Trabajo 3">
+               <div id="galeria"
+                  data-imagenes='[
+                  "../../img/portfolio/3-a.png",
+                  "../../img/portfolio/3-b.png",
+                  "../../img/portfolio/3-c.png",
+                  "../../img/portfolio/3-d.png",
+                  "../../img/portfolio/3-e.png",
+                  "../../img/portfolio/3-f.png",
+                  "../../img/portfolio/3-g.mp4"
+                  ]'></div>
+               <button class="flecha derecha" onclick="siguiente()">
+               →
+               </button>
+            </section>
+            <section class="info-proyecto">
+               <div class="encabezado-proyecto">
+                  <h2>Planthasya</h2>
+                  <h3>[Identidad experimental] 2025</h3>
+               </div>
+               <p>
+                  Mundos in mundos imaginarios. 
+                  Caos, curación y florecimiento. Seres orgánicos. Geografía vegetal. Este es el reino de Planthasya.
+               </p>
+            </section>
+         </section>
+         <nav class="nav-portfolio">
+            <a href="../trabajos/portada.html">✦</a>
+            <a href="../trabajos/1.html">➊</a>
+            <a href="../trabajos/2.html">➋</a>
+            <a href="../trabajos/3.html" class="activo">➌</a>
+            <a href="../trabajos/4.html">➍</a>
+            <a href="../trabajos/contraportada.html">✦</a>
+         </nav>
+      </main>
+      <script src="../../galeria.js"></script>
+   </body>
 </html>
