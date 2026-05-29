@@ -492,49 +492,58 @@ iframe::-webkit-scrollbar {
 }
 
 .proyecto {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
 	background-color: #CBCBCB;
 }
 
 .contenido-proyecto {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .nav-portfolio .activo {
-    color: #FF5454;
+	color: #FF5454;
 }
 
 .info-proyecto {
-    display: flex;
-    align-items: flex-start;
-    gap: 60px;
-    padding: 30px 40px;
+	display: flex;
+	align-items: flex-start;
+	gap: 60px;
+	padding: 30px 40px;
 }
 
 .encabezado-proyecto {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	flex: 1;
 }
 
 .info-proyecto p {
-    max-width: 500px;
-    line-height: 1.5;
+	max-width: 500px;
+	line-height: 1.5;
 }
 
 .galeria {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #CBCBCB;
 }
 
-.galeria img {
-    width: 100%;
-    height: auto;
-    display: block;
+.galeria img,
+.galeria video {
+	width: 100%;
+	height: auto;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
 }
 
 .flecha {
@@ -545,7 +554,6 @@ iframe::-webkit-scrollbar {
 	color: #FF5454;
 	border: none;
 	padding: 2px 10px 7px 10px;
-	
 	align-items: center;
 	font-size: 2rem;
 	cursor: url("img/hand-cursor.png"), pointer;
@@ -566,23 +574,18 @@ iframe::-webkit-scrollbar {
 }
 
 .entrada-layout {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  min-height: 100vh;
+	display: flex;
+	align-items: stretch;
+	min-height: 100vh;
 }
 
 .entrada-media {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+	flex: 1;
 
-.entrada-media img {
-  width: 100%;
-  height: auto;
-  display: block;
+	background-image: url("img/portfolio/portfolio-1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
