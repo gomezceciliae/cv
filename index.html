@@ -12,6 +12,9 @@
    <body id="top">
       <header>
          <h1><a href="#top">CGDG</a></h1>
+		  <button class="menu-toggle" aria-label="Abrir menú">
+      ☰
+   </button>
          <nav>
             <a href="#acerca-de-mi">acerca de mí</a>
             <a href="#skills">skills</a>
@@ -145,5 +148,13 @@
             <li><a href="https://www.behance.net/cgdg" target="_blank"><img src="img/behance.png" alt="Logo Behance" class="logos" width="40" height="40"></a></li>
          </ul>
       </footer>
+	   <script>
+   const toggle = document.querySelector(".menu-toggle");
+   const nav = document.querySelector(".nav");
+
+   toggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+   });
+</script>
    </body>
 </html>
