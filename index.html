@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="description" content="Portfolio de Cecilia Gómez">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css" type="text/css">
       <link rel="stylesheet" href="https://use.typekit.net/nys6vjf.css" type="text/css">
       <link rel="icon" href="img/icon.png" type="image/png">
@@ -11,18 +11,16 @@
    </head>
    <body id="top">
       <header>
-   <h1><a href="#top">CGDG</a></h1>
-
-   <button class="menu-toggle">☰</button>
-
-   <nav class="nav">
-      <a href="#acerca-de-mi">acerca de mí</a>
-      <a href="#skills">skills</a>
-      <a href="#me-gusta">me gusta</a>
-      <a href="portfolio/portfolio.html">portfolio</a>
-      <a href="contacto.html">contacto</a>
-   </nav>
-</header>
+         <h1><a href="#top">CGDG</a></h1>
+         <button class="menu-toggle">☰</button>
+         <nav class="nav">
+            <a href="#acerca-de-mi">acerca de mí</a>
+            <a href="#skills">skills</a>
+            <a href="#me-gusta">me gusta</a>
+            <a href="portfolio/portfolio.html">portfolio</a>
+            <a href="contacto.html">contacto</a>
+         </nav>
+      </header>
       <main>
          <section class="imagen-heroe">
             <img 
@@ -148,13 +146,20 @@
             <li><a href="https://www.behance.net/cgdg" target="_blank"><img src="img/behance.png" alt="Logo Behance" class="logos" width="40" height="40"></a></li>
          </ul>
       </footer>
-	   <script>
-   const toggle = document.querySelector(".menu-toggle");
-   const nav = document.querySelector(".nav");
-
-   toggle.addEventListener("click", () => {
-      nav.classList.toggle("active");
-   });
-</script>
+      <script>
+         const toggle = document.querySelector(".menu-toggle");
+         const nav = document.querySelector(".nav");
+         
+         toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+            toggle.classList.toggle("active");
+         
+            if (toggle.classList.contains("active")) {
+               toggle.textContent = "❤";
+            } else {
+               toggle.textContent = "☰";
+            }
+         });
+      </script>
    </body>
 </html>

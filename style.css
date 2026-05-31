@@ -132,6 +132,12 @@ header {
    background: none;
    border: none;
    font-size: 2rem;
+   color: #FF5454;
+   transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-toggle.active {
+   color: #1A1A1A;
 }
 
 .nav {
@@ -469,8 +475,13 @@ footer ul {
 }
 
 @media (max-width: 768px) {
+
    .imagen-heroe {
-      height: 70vh;
+      height: 105vh;
+   }
+
+   .foto-heroe {
+      transform: scale(1.05);
    }
 }
 
@@ -545,13 +556,11 @@ footer ul {
       padding: 20px 3%;
    }
 
-   /* H1 centrado */
    header h1 {
       width: 100%;
       margin-bottom: 10px;
    }
 
-   /* hamburguesa SIN absolute (clave del arreglo) */
    .menu-toggle {
       display: block;
       font-size: 2rem;
@@ -560,7 +569,6 @@ footer ul {
       margin-bottom: 10px;
    }
 
-   /* nav centrado */
    .nav {
       display: none;
       flex-direction: column;
@@ -909,6 +917,24 @@ button {
     font-size: 1rem;
 }
 
+.blockquote-contacto {
+	background-color: #1A1A1A;
+}
+
+.blockquote-contacto p {
+	color: #FFFFFF;
+}
+
+.blockquote-contacto cite {
+	color: #FF5454;
+}
+
+
+/* ---------------------------------- */
+/* CONTACTO - MEDIA QUERIES MÓVIL+TABLET */
+/* ---------------------------------- */
+
+
 @media (max-width: 768px) {
 
     .formulario {
@@ -926,14 +952,17 @@ button {
 
 }
 
-.blockquote-contacto {
-	background-color: #1A1A1A;
-}
+@media (max-width: 768px) {
 
-.blockquote-contacto p {
-	color: #FFFFFF;
-}
+   .acciones-formulario {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+   }
 
-.blockquote-contacto cite {
-	color: #FF5454;
+   .grupo-checks {
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+   }
 }
