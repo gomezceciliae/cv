@@ -617,6 +617,7 @@ input:focus,
 textarea:focus {
     border-color: #1A1A1A;
     box-shadow: 0 0 0 2px #1A1A1A;
+	caret-color: #FF5454;
 }
 
 input:focus {
@@ -626,6 +627,11 @@ input:focus {
 input::placeholder,
 textarea::placeholder {
     color: #FF5454;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    opacity: 0;
 }
 
 .contacto {
