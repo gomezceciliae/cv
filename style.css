@@ -568,6 +568,10 @@ footer ul {
       border: none;
       margin-bottom: 10px;
    }
+	
+	.menu-toggle.active {
+      color: #1A1A1A;
+   }
 
    .nav {
       display: none;
@@ -579,7 +583,7 @@ footer ul {
 
    .nav.active {
       display: flex;
-	  background-color: #1A1A1A;
+	   
    }
 }
 
