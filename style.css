@@ -113,21 +113,18 @@ blockquote,
 
 
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-	background-color: #CBCBCB;
-	flex-wrap: wrap;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   background-color: #CBCBCB;
 }
 
-nav {
-	display: flex;
-	gap: 20px;
-	flex-wrap: wrap;
-	justify-content: center;
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 3%;
+   flex-wrap: nowrap;
 }
 
 .menu-toggle {
@@ -135,7 +132,11 @@ nav {
    background: none;
    border: none;
    font-size: 2rem;
-   cursor: pointer;
+}
+
+.nav {
+   display: flex;
+   gap: 20px;
 }
 
 
@@ -536,36 +537,30 @@ footer ul {
 
 @media (max-width: 768px) {
 
-   header {
-      flex-wrap: nowrap;
-      position: relative;
-   }
-
    .menu-toggle {
       display: block;
-      margin-left: auto;
-      font-size: 2rem;
-      background: none;
-      border: none;
-      line-height: 1;
    }
 
-   nav {
+   .nav {
       display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
       flex-direction: column;
-      gap: 15px;
-      padding: 15px 3%;
-      background-color: #CBCBCB;
+      width: 100%;
+      padding-top: 15px;
    }
 
-   nav.active {
+   .nav.active {
       display: flex;
    }
+
+   header {
+      flex-wrap: wrap;
+   }
+
+   header h1 {
+      flex: 1;
+   }
 }
+
 
 /* ------------------------- */
 /* P O R T F O L I O . H T M L */
