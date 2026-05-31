@@ -477,7 +477,7 @@ footer ul {
 @media (max-width: 768px) {
 
    .imagen-heroe {
-      height: 105vh;
+      height: 115vh;
    }
 
    .foto-heroe {
@@ -579,6 +579,7 @@ footer ul {
 
    .nav.active {
       display: flex;
+	  background-color: #1A1A1A;
    }
 }
 
