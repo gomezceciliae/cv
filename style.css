@@ -537,14 +537,17 @@ footer ul {
 @media (max-width: 768px) {
 
    header {
+      display: flex;
       flex-direction: row;
-	  flex-wrap: nowrap;
+      justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
    }
 
    .menu-toggle {
       display: block;
       margin-left: auto;
+      align-self: center;
       font-size: 2rem;
       background: none;
       border: none;
@@ -552,14 +555,14 @@ footer ul {
    }
 
    nav.nav {
-      display: none !important;
-      flex-direction: column;
+      display: none;
       width: 100%;
+      flex-direction: column;
+      margin-top: 15px;
    }
 
    nav.nav.active {
-      display: flex !important;
-      margin-top: 15px;
+      display: flex;
    }
 }
 
