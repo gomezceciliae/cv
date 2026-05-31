@@ -477,13 +477,12 @@ footer ul {
 @media (max-width: 768px) {
 
    .imagen-heroe {
-     aspect-ratio: 16 / 9;
+      height: 45vh;
    }
 
    .foto-heroe {
-      width: 100%;
-      height: 100%;
       object-fit: cover;
+      object-position: center top;
    }
 }
 
