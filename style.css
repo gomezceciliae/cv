@@ -537,27 +537,40 @@ footer ul {
 
 @media (max-width: 768px) {
 
-   .menu-toggle {
-      display: block;
+   header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 3%;
    }
 
+   /* H1 centrado */
+   header h1 {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   /* hamburguesa SIN absolute (clave del arreglo) */
+   .menu-toggle {
+      display: block;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      margin-bottom: 10px;
+   }
+
+   /* nav centrado */
    .nav {
       display: none;
       flex-direction: column;
+      align-items: center;
+      gap: 15px;
       width: 100%;
-      padding-top: 15px;
    }
 
    .nav.active {
       display: flex;
-   }
-
-   header {
-      flex-wrap: wrap;
-   }
-
-   header h1 {
-      flex: 1;
    }
 }
 
