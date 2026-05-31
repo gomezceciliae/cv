@@ -609,14 +609,14 @@ select {
 input,
 textarea {
     border: 2px solid transparent;
-    outline: none;
-    box-shadow: none;
     box-sizing: border-box;
+    outline: none;
 }
 
 input:focus,
 textarea:focus {
-    border: 2px solid #1A1A1A;
+    border-color: #1A1A1A;
+    box-shadow: 0 0 0 2px #1A1A1A;
 }
 
 input:focus {
