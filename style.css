@@ -476,14 +476,19 @@ footer ul {
 
 @media (max-width: 768px) {
 
-	.imagen-heroe {
-		height: 100vh;
-	}
+  .imagen-heroe {
+    height: 100vh;
+    overflow: hidden;
+  }
 
-	.foto-heroe {
-		object-fit: cover;
-		object-position: center top;
-	}
+  .foto-heroe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+
 }
 
 @media (max-width: 768px) {
