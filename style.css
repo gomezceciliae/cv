@@ -599,6 +599,179 @@ iframe::-webkit-scrollbar {
 /* ----------------------- */
 
 
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+input,
+textarea {
+    border: 2px solid transparent;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #000;
+}
+
+input:focus {
+    box-shadow: 0 0 0 2px #000;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #FF5454;
+}
+
+.contacto {
+    background-color: #ff5b5b;
+    padding: 40px;
+	padding-bottom: 65px;
+}
+
+.contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 60px;
+    color: #111;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.columna-izquierda,
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 55px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+textarea {
+    height: 168px;
+    border: none;
+    resize: none;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#archivo {
+    display: none;
+}
+
+.archivo-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+	
+}
+
+.boton-archivo {
+    width: 210px;
+    height: 50px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    color: #ff5b5b;
+}
+
+#nombre-archivo {
+    color: white;
+    font-size: 0.95rem;
+}
+
+.acciones-formulario {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    gap: 68px;
+}
+
+.grupo-checks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: left;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+}
+
+.check input {
+    display: none;
+}
+
+.check span {
+    width: 28px;
+    height: 28px;
+    background-color: #e8e8e8;
+}
+
+.check input:checked + span {
+    background-color: #111;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .acciones-formulario {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
+
 .blockquote-contacto {
 	background-color: #1A1A1A;
 }

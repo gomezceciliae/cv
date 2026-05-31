@@ -17,9 +17,93 @@
          </nav>
       </header>
       <main>
-         <section class="intro">
-            <p>★ Section para Contacto ★</p>
-         </section>
+         <section class="contacto">
+
+    <h2>Contactá conmigo</h2>
+
+    <form class="formulario">
+
+        <div class="columna-izquierda">
+
+            <label for="nombre">Tu nombre</label>
+
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="nombre">
+
+            <label for="email">E-mail</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="e-mail">
+
+            <label for="archivo">
+                Quiero adjuntar mi portfolio / cv
+            </label>
+
+            <div class="archivo-contenedor">
+
+                <label for="archivo" class="boton-archivo">
+                    Seleccionar archivo
+                </label>
+
+                <span id="nombre-archivo">
+                    Ningún archivo adjuntado
+                </span>
+
+                <input
+                    type="file"
+                    id="archivo"
+                    name="archivo">
+
+            </div>
+
+        </div>
+
+        <div class="columna-derecha">
+
+    <label for="mensaje">Tu mensaje</label>
+
+    <textarea
+        id="mensaje"
+        name="mensaje"
+        placeholder="mensaje"></textarea>
+
+    <div class="acciones-formulario">
+
+    <div class="grupo-checks">
+
+        <label class="check">
+            <input type="checkbox" name="laboral">
+            <span></span>
+            Laboral
+        </label>
+
+        <label class="check">
+            <input type="checkbox" name="otros">
+            <span></span>
+            Otro/s
+        </label>
+
+    </div>
+
+    <button type="submit">
+        Enviar
+    </button>
+
+</div>
+
+</div>
+
+        
+
+    </form>
+
+</section>
          <blockquote class="blockquote-contacto">
             <p>Soy una persona sincera, respetuosa. Soy irrespetuoso cuando las cosas no valen y debo serlo ★<cite>Astor Piazzolla</cite></p>
          </blockquote>
