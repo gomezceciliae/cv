@@ -491,24 +491,31 @@ footer ul {
    .skills {
       flex-direction: column;
       min-height: auto;
-      gap: 25px;
+      gap: 20px;
+
       padding: 50px 5%;
+
+      justify-content: flex-start;
       align-items: flex-start;
+
+      background-size: cover;
    }
 
    .habilidades {
-      width: 100%;
+      flex: unset;
       max-width: 100%;
+      width: 100%;
+   }
+
+   .habilidades:last-child {
+      max-width: 100%;
+      margin-top: 0;
    }
 
    .habilidades p,
    .habilidades ul {
       font-size: 1.2rem;
       line-height: 1.4;
-   }
-
-   .habilidades:last-child {
-      margin-top: 0;
    }
 }
 
