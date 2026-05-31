@@ -616,11 +616,11 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 2px solid #000;
+    border: 2px solid #1A1A1A;
 }
 
 input:focus {
-    box-shadow: 0 0 0 2px #000;
+    box-shadow: 0 0 0 2px #1A1A1A;
 }
 
 input::placeholder,
@@ -629,7 +629,7 @@ textarea::placeholder {
 }
 
 .contacto {
-    background-color: #ff5b5b;
+    background-color: #FF5454;
     padding: 40px;
 	padding-bottom: 65px;
 }
@@ -637,7 +637,7 @@ textarea::placeholder {
 .contacto h2 {
     font-size: 2rem;
     margin-bottom: 60px;
-    color: #111;
+    color: #1A1A1A;
 }
 
 .formulario {
@@ -654,7 +654,7 @@ textarea::placeholder {
 
 label {
     font-weight: 700;
-    color: #111;
+    color: #1A1A1A;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -694,13 +694,13 @@ textarea {
 .boton-archivo {
     width: 210px;
     height: 50px;
-    background-color: #e8e8e8;
+    background-color: #CBCBCB;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor: url("img/hand-cursor.png"), pointer;
     margin: 0;
-    color: #ff5b5b;
+    color: #FF5454;
 }
 
 #nombre-archivo {
@@ -728,7 +728,7 @@ textarea {
     gap: 10px;
     font-weight: 400;
     margin: 0;
-    cursor: pointer;
+    cursor: url("img/hand-cursor.png"), pointer;
 }
 
 .check input {
@@ -738,20 +738,34 @@ textarea {
 .check span {
     width: 28px;
     height: 28px;
-    background-color: #e8e8e8;
+    background-color: #FFFFFF;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
 }
 
 .check input:checked + span {
-    background-color: #111;
+    border-color: #1A1A1A;
+}
+
+.check input:checked + span::after {
+    content: "✦";
+    font-size: 18px;
+    color: #FF5454;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
     width: 140px;
     height: 50px;
     border: none;
-    background-color: #111;
+    background-color: #1A1A1A;
     color: white;
-    cursor: pointer;
+    cursor: url("img/hand-cursor.png"), pointer;
     font-size: 1rem;
 }
 
