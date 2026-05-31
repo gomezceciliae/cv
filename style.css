@@ -492,30 +492,44 @@ footer ul {
       flex-direction: column;
       min-height: auto;
       gap: 20px;
-
       padding: 50px 5%;
-
-      justify-content: flex-start;
-      align-items: flex-start;
-
-      background-size: cover;
+      justify-content: center;
+      align-items: center;
    }
 
    .habilidades {
       flex: unset;
-      max-width: 100%;
       width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+	  
+   }
+
+   .habilidades p {
+      font-size: 1.2rem;
+      line-height: 1.4;
+      text-align: center;
+	  margin-bottom: 20px;
+   }
+
+.habilidades ul {
+      font-size: 1.2rem;
+      list-style: none;
+
+      margin: 0;
+      padding: 0;
+
+      text-align: left;
+
+      align-self: center;
+      width: fit-content;
    }
 
    .habilidades:last-child {
-      max-width: 100%;
       margin-top: 0;
-   }
-
-   .habilidades p,
-   .habilidades ul {
-      font-size: 1.2rem;
-      line-height: 1.4;
+      max-width: 500px;
    }
 }
 
