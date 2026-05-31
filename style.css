@@ -538,10 +538,10 @@ footer ul {
 
    header {
       display: flex;
-      flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
+      flex-wrap: nowrap; /* importante */
+      position: relative;
    }
 
    .menu-toggle {
@@ -554,9 +554,14 @@ footer ul {
 
    nav.nav {
       display: none;
-      flex: 0 0 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
       flex-direction: column;
-      margin-top: 15px;
+      background: #CBCBCB; /* igual a tu header */
+      padding: 15px 5%;
+      gap: 10px;
    }
 
    nav.nav.active {
