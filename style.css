@@ -546,8 +546,6 @@ footer ul {
 
    .menu-toggle {
       display: block;
-      margin-left: auto;
-      align-self: center;
       font-size: 2rem;
       background: none;
       border: none;
@@ -556,7 +554,7 @@ footer ul {
 
    nav.nav {
       display: none;
-      width: 100%;
+      flex: 0 0 100%;
       flex-direction: column;
       margin-top: 15px;
    }
