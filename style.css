@@ -538,6 +538,7 @@ footer ul {
 
    header {
       flex-direction: row;
+	  flex-wrap: nowrap;
       align-items: center;
    }
 
@@ -551,14 +552,14 @@ footer ul {
    }
 
    nav.nav {
-      display: none;
+      display: none !important;
       flex-direction: column;
       width: 100%;
-      margin-top: 15px;
    }
 
    nav.nav.active {
-      display: flex;
+      display: flex !important;
+      margin-top: 15px;
    }
 }
 
