@@ -779,11 +779,66 @@ iframe::-webkit-scrollbar {
 
 .entrada-media {
 	flex: 1;
-
 	background-image: url("img/portfolio/portfolio-1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+
+/* ------------------------- */
+/* 1 2 3 4 - MEDIAQUERIES
+/* ------------------------- */
+
+
+/* CELULAR Y TABLET */
+
+@media (max-width: 768px) {
+
+    .contenido-proyecto {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .galeria,
+    .info-proyecto {
+        width: 100%;
+    }
+
+    #imagen-galeria {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-proyecto {
+        text-align: center;
+    }
+
+}
+
+/* CELULAR EN HORIZONTAL */
+
+@media (max-width: 900px) and (orientation: landscape) {
+
+    .contenido-proyecto {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .galeria {
+        width: 65%;
+    }
+
+    .info-proyecto {
+        width: 35%;
+        text-align: left;
+    }
+
+    #imagen-galeria {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 
