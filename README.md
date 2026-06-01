@@ -17,8 +17,23 @@ Para esta entrega final, nuevamente boceté en papel la estructura y la parte in
 ## 2. Dificultades iniciales
 
 * Ajustes muy específicos de media queries
-* Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor".
-  Prácticamente fue un experimento pero funcionó.
+* Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor"
+  Prácticamente fue un experimento pero funcionó
+
+
+## Especificaciones
+
+* Tamaño de pantalla: 1366 X 768 (laptop)
+* Tamaño móvil: 720 X 1600 (samsung galaxy)
+* Editor: Adobe Dreamweaver (principal)
+
+
+## Link Figma
+
+[[Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=52-2&p=f&t=2HtJaVEelBZKGsWQ-0)](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=351-46&p=f&t=T7SL1fH5Eajn5qvE-0)
+
+
+
 
 
 
