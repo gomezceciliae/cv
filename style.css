@@ -791,6 +791,8 @@ iframe::-webkit-scrollbar {
 /* ------------------------- */
 
 
+/* CELULAR Y TABLET */
+
 @media (max-width: 768px) {
 
     .contenido-proyecto {
@@ -798,8 +800,7 @@ iframe::-webkit-scrollbar {
         gap: 2rem;
     }
 
-    .galeria,
-    .info-proyecto {
+    .galeria {
         width: 100%;
     }
 
@@ -809,10 +810,29 @@ iframe::-webkit-scrollbar {
     }
 
     .info-proyecto {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .encabezado-proyecto {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .encabezado-proyecto h2,
+    .encabezado-proyecto h3 {
+        width: 100%;
+    }
+
+    .info-proyecto p {
+        width: 100%;
     }
 
 }
+
+/* CELULAR EN HORIZONTAL */
 
 @media (max-width: 900px) and (orientation: landscape) {
 
@@ -826,8 +846,19 @@ iframe::-webkit-scrollbar {
     }
 
     .info-proyecto {
+        display: flex;
+        flex-direction: column;
         width: 35%;
         text-align: left;
+    }
+
+    .encabezado-proyecto {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .info-proyecto p {
+        width: 100%;
     }
 
 }
