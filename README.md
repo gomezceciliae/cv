@@ -5,7 +5,7 @@
 
 Para esta entrega final, nuevamente boceté en papel la estructura y la parte interactiva del prototipado. Luego lo pasé a Figma y seguí trabajando haciendo la versión html en el editor de código. Se ajusta viewport y media queries, principalmente en el index. De todas maneras se prueba en las otras siguientes y se siguen mejorando. Se agrega Javascript para la funcionalidad del portfolio y código para el formulario. También hay una versión prototipada completa en Figma de la versión móvil. Esta entrega final fue un desafío a contratiempo, sin embargo aprendí muchas más herramientas para aplicar en la siguiente etapa grupal.
 
-## 2.Fortalezas
+## 2. Fortalezas
 
 * Comprensión general
 * Manejo de CSS / uso básico Javascript
@@ -14,7 +14,7 @@ Para esta entrega final, nuevamente boceté en papel la estructura y la parte in
 * Administración del tiempo (deadlines)
 
 
-## 2.Dificultades iniciales
+## 2. Dificultades iniciales
 
 * Ajustes muy específicos de media queries
 * Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor".
