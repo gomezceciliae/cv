@@ -787,11 +787,9 @@ iframe::-webkit-scrollbar {
 
 
 /* ------------------------- */
-/* 1 2 3 4 - MEDIAQUERIES
+/* PORTFOLIO - MEDIAQUERIES
 /* ------------------------- */
 
-
-/* CELULAR Y TABLET */
 
 @media (max-width: 768px) {
 
@@ -816,8 +814,6 @@ iframe::-webkit-scrollbar {
 
 }
 
-/* CELULAR EN HORIZONTAL */
-
 @media (max-width: 900px) and (orientation: landscape) {
 
     .contenido-proyecto {
@@ -832,11 +828,6 @@ iframe::-webkit-scrollbar {
     .info-proyecto {
         width: 35%;
         text-align: left;
-    }
-
-    #imagen-galeria {
-        width: 100%;
-        height: auto;
     }
 
 }
