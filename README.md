@@ -30,7 +30,7 @@ Para esta entrega final, nuevamente boceté en papel la estructura y la parte in
 
 ## Link Figma
 
-[[Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=52-2&p=f&t=2HtJaVEelBZKGsWQ-0)](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=351-46&p=f&t=T7SL1fH5Eajn5qvE-0)
+[CGDG Figma](https://www.figma.com/design/OQM9eV7tUn3naDQ6CJQcar/figma?node-id=52-2&p=f&t=2HtJaVEelBZKGsWQ-0)
 
 
 
