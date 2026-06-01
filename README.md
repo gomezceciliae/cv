@@ -17,8 +17,7 @@ Para esta entrega final, nuevamente boceté en papel la estructura y la parte in
 ## 2. Dificultades iniciales
 
 * Ajustes muy específicos de media queries
-* Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor"
-  Prácticamente fue un experimento pero funcionó
+* Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor". Lo hice como un experimento porque quería que mi portfolio se viera tal cual o muy aproximado al prototipado en Figma.
 
 
 ## Especificaciones
