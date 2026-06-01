@@ -1,7 +1,28 @@
 # Bienvenid@ a CGDG
 
 
-## Desarrollo
+## Segunda parte. Desarrollo
+
+Para esta entrega final, nuevamente boceté en papel la estructura y la parte interactiva del prototipado. Luego lo pasé a Figma y seguí trabajando haciendo la versión html en el editor de código. Se ajusta viewport y media queries, principalmente en el index. De todas maneras se prueba en las otras siguientes y se siguen mejorando. Se agrega Javascript para la funcionalidad del portfolio y código para el formulario. También hay una versión prototipada completa en Figma de la versión móvil. Esta entrega final fue un desafío a contratiempo, sin embargo aprendí muchas más herramientas para aplicar en la siguiente etapa grupal.
+
+## 2.Fortalezas
+
+* Comprensión general
+* Manejo de CSS / uso básico Javascript
+* Coherencia del sistema visual
+* Organización de la estructura del tp (del papel al editor)
+* Administración del tiempo (deadlines)
+
+
+## 2.Dificultades iniciales
+
+* Ajustes muy específicos de media queries
+* Ajustes muy específicos respecto de i-frames y su comportamiento en un html "contenedor".
+  Prácticamente fue un experimento pero funcionó.
+
+
+
+## Primera parte. Desarrollo
 
 Este proyecto fue bocetado a mano alzada, para poder entender y planificar una estructura base. Luego se fueron creando y organizando los elementos internos, escribiéndolos de a poco en el editor de código: primero el HTML, pasando gradualmente a la creación de la hoja CSS. Para identificar bien cada parte, me guié coloreando el background de las principales etiquetas como header, main y footer. Vinculé una familia tipográfica desde Adobe (solo las variables que iba a utilizar). Edité las imágenes en Ps y algunas muy específicas con Firefly. Traté de simplificar el CSS, agrupando clases y etiquetas que puedan modificarse en conjunto, además de animarme a probar algunos pequeños efectos visuales.
 
